@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="12"/>
+  
+  <!-- Stylized Monogram R -->
+  <g fill="url(#goldGrad)" transform="translate(140, 110)">
+    <!-- Main stem -->
+    <rect x="0" y="0" width="48" height="290" rx="10"/>
+    <!-- Top loop -->
+    <path d="M 40 0 L 140 0 C 190 0 220 30 220 80 C 220 130 190 160 140 160 L 40 160 Z M 48 40 L 135 40 C 165 40 178 55 178 80 C 178 105 165 120 135 120 L 48 120 Z" fill-rule="evenodd"/>
+    <!-- Diagonal leg -->
+    <path d="M 120 145 L 210 290 L 155 290 L 75 160 Z"/>
+  </g>
+
+  <!-- Accent indicator -->
+  <circle cx="370" cy="140" r="16" fill="#10b981"/>
+  <rect x="140" y="420" width="232" height="8" rx="4" fill="#10b981"/>
+</svg>
